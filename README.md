@@ -1,2 +1,3 @@
 # Lezioni Base di PHP 2017
-#LID URBANIA
+
+http://www.lidurbania.it/corsophp
