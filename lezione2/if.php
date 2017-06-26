@@ -9,7 +9,6 @@ $areatriangolo = $base*$altezza/2;
 <html>
 <head>
 	<title>If esempio 1</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
@@ -17,12 +16,12 @@ $areatriangolo = $base*$altezza/2;
 	<div>
 		<?php
 		if ($areatriangolo > $valoreminimoarea) {
-			echo "<div class='verde'>";
+			echo "<div style='color:green'>";
 			echo "L'area del triangolo è $areatriangolo, quindi è maggiore di $valoreminimoarea";
 
 		}
 		else {
-			echo "<div class='rosso'>";
+			echo "<div style='color:red'>";
 			echo "L'area è minore di $valoreminimoarea";
 		}
 		echo "</div>";
