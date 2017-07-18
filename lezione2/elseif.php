@@ -1,9 +1,3 @@
-<?php
-$nome = "Paolo";
-$cognome = "Giampaoli";
-$colorepreferito = "rosso";
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,9 +7,8 @@ $colorepreferito = "rosso";
 
 	<h1>Esempio</h1>
 	<div>
-		<?php
-
-	$colore = "rosso";
+	<?php
+	$colore = "giallo";
 
 	if ($colore == "blu") {
 		echo "<div style='color:blue'>";
@@ -42,6 +35,8 @@ $colorepreferito = "rosso";
 		echo "Nessun colore corrispondente alla tua selezione";
 	}
 	echo "</div>";
+
+	
 	?>
 	</div>
 </body>
